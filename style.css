@@ -1,0 +1,37 @@
+body {
+  padding: 20px;
+  font-family: "Handlee", cursive;
+  margin: 50px auto; }
+
+#title {
+  font-size: 40px;
+  text-align: center; }
+
+#quote {
+  font-size: 30px;
+  text-align: center; }
+
+.grid {
+  max-width: 700px; }
+  .grid .item {
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 170px;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border: black 3px solid;
+    border-radius: 10; }
+    .grid .item:nth-child(1) {
+      background-image: url(./img/raven.jpg); }
+    .grid .item:nth-child(2) {
+      background-image: url(./img/dante.jpg); }
+    .grid .item:nth-child(3) {
+      background-image: url(./img/highwayman.jpg); }
+    .grid .item:nth-child(4) {
+      background-image: url(./img/iliad.jpg); }
+
+/*# sourceMappingURL=style.css.map */

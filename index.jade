@@ -1,0 +1,18 @@
+//output:index.html, pretty:false
+doctype html
+html(lang="en")
+  head
+    title PoetryClub
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Handlee")
+    link(rel="stylesheet", href="./style.css")
+    script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js")
+    
+  body
+    h1#title Fowler Poetry Club
+    .grid
+      - var i = 0;
+      while (i++ < 4)
+        .item
+    p#quote "Poetry is an echo, asking a shadow to dance." ~ Carl Sandburg

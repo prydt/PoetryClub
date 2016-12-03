@@ -1,0 +1,38 @@
+body
+  padding: 20px
+  font-family: 'Handlee', cursive
+  margin: 50px auto
+#title
+  font-size: 40px
+  text-align: center
+#quote
+  font-size: 30px
+  text-align: center
+
+.grid
+  max-width: 700px
+  .item
+    margin-bottom: 10px
+    padding: 20px
+    width: 100%
+    display: inline-block
+    box-sizing: border-box
+    width: 170px
+
+    background:
+      position: center
+      size: cover
+
+    &:nth-child(1)
+      background-image: url(./img/raven.jpg)
+    &:nth-child(2)
+      background-image: url(./img/dante.jpg)
+    &:nth-child(3)
+      background-image: url(./img/highwayman.jpg)
+    &:nth-child(4)
+      background-image: url(./img/iliad.jpg)
+
+    height: 160px
+
+    border: black 3px solid
+    border-radius: 10
